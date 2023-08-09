@@ -6,7 +6,7 @@ const resources = [
     link: "https://www.venues.org.uk/",
     repo: null,
     tags: ["CodeIgniter", "JQuery", "Bootstrap"],
-    imageUrl: "./assets/venues_org_uk.png",
+    imageUrl: new URL("./assets/venues_org_uk.png", import.meta.url).href,
   },
   {
     title: "Elite Event Services",
@@ -15,7 +15,8 @@ const resources = [
     link: "https://eliteeventservice.co.uk/",
     repo: null,
     tags: ["WordPress", "WP Bakery", "Slider Revolution"],
-    imageUrl: "assets/eliteeventservice_co_uk.png",
+    imageUrl: new URL("./assets/eliteeventservice_co_uk.png", import.meta.url)
+      .href,
   },
   {
     title: "Crown Shopping",
@@ -23,7 +24,7 @@ const resources = [
     link: "https://voluble-cendol-6faa7e.netlify.app/",
     repo: "https://github.com/iameligio/ztm-ecommerce",
     tags: ["ReactJS", "ContextAPI", "Firebase", "Styled Components"],
-    imageUrl: "assets/ztm-shopping_cart.png",
+    imageUrl: new URL("./assets/ztm-shopping_cart.png", import.meta.url).href,
   },
   {
     title: "Promotional Merchandise",
@@ -32,7 +33,8 @@ const resources = [
     link: "https://www.promotional-merchandise.org.uk/",
     repo: null,
     tags: ["CodeIgniter"],
-    imageUrl: "assets/promotional_merchandise.png",
+    imageUrl: new URL("assets/promotional_merchandise.png", import.meta.url)
+      .href,
   },
   {
     title: "Managed",
@@ -40,7 +42,7 @@ const resources = [
     link: "https://managed.eightbrain.com/",
     repo: "https://github.com/iameligio/tailwindcss-sample1",
     tags: ["TailwindCSS"],
-    imageUrl: "assets/manage_tailwind.png",
+    imageUrl: new URL("assets/manage_tailwind.png", import.meta.url).href,
   },
 ];
 
