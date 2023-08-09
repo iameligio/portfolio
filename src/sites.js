@@ -1,6 +1,6 @@
 const resources = [
   {
-    title: "Venues",
+    title: "Venues UK",
     description:
       "Venues.org.uk is a free venue finding service based in UK. Find a perfect venue by contacting multiple venues with one click.",
     link: "https://www.venues.org.uk/",
@@ -9,7 +9,7 @@ const resources = [
     imageUrl: new URL("./assets/venues_org_uk.png", import.meta.url).href,
   },
   {
-    title: "Elite Event Services",
+    title: "Elite Event Services UK",
     description:
       "Exhibition / trade show specialist rebook service team,comprised of core members of highly experienced handpicked Sales Directors / CEOs from within the Events and Exhibition Industry.",
     link: "https://eliteeventservice.co.uk/",
