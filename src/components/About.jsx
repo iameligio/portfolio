@@ -20,7 +20,7 @@ function About() {
         <h3 className="text-gray-700 text-7xl pt-10 ">About Me</h3>
         <div className="container mx-auto">
           <p className="text-xl mt-10">
-            I'm Eligio, I'm a full-stack developer, consultant and amature
+            Hi! I'm Eligio. A full-stack developer, consultant and amature
             designer based in the Philippines 🇸🇽 .
           </p>
 

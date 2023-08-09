@@ -62,7 +62,7 @@ const Projects = () => {
         transition={{ duration: 1 }}
       >
         <h3 className="text-7xl mb-10">Projects</h3>
-
+        <p className="text-xl">What I've Built</p>
         <div className="mx-auto mb-20 text-left  bg-white">
           <div className="relative  w-full h-full ">
             <button onClick={() => slider?.current?.slickPrev()}>
