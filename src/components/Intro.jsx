@@ -1,5 +1,5 @@
 import React from "react";
-import introPic from "../assets/portfolio-pic.jpg";
+import introPic from "../assets/5910091.jpeg";
 import {
   AiFillGithub,
   AiFillInstagram,
